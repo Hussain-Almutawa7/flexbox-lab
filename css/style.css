@@ -100,7 +100,7 @@ nav button {
 
 #destinations {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 #actions {

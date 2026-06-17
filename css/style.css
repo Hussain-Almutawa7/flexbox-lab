@@ -11,6 +11,8 @@ body {
 nav {
   background-color: white;
   padding: 8px 16px;
+  display: flex;
+  justify-content: space-between;
 }
 
 p {
@@ -94,4 +96,53 @@ nav button {
   color: black;
   border-radius: 50px;
   padding: 6px 15px;
+}
+
+#destinations {
+    display: flex;
+    gap: 10px;
+}
+
+#actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+
+#headers {
+  display: flex;
+   flex-direction: column; 
+  justify-content: center;
+}
+
+#trending {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#subnav {
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
 }
